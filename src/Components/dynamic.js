@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import {  Row, Col, Container } from "react-bootstrap";
-import { styled } from '@material-ui/styles';
+
 import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
+
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
@@ -138,7 +138,7 @@ export default function Dynamic() {
           <FavoriteIcon 
            onClick={()=>handleIconClick(item)
         }
-        style={{color:item==isBlack?'red':" "}} />
+        style={{color:item===isBlack?'red':" "}} />
 
         </IconButton>
 
@@ -154,7 +154,7 @@ export default function Dynamic() {
           </IconButton>
       </CardActions> 
       
-      <Collapse in={expanded==item} timeout="auto" unmountOnExit>
+      <Collapse in={expanded===item} timeout="auto" unmountOnExit>
         <CardContent>
          
        
