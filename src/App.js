@@ -1,20 +1,11 @@
-import React,{Component,useState,useEffect} from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PhotoContainer from "./Components/Photocontainer";
+
 import Dynamic from './Components/dynamic.js';
-import { Row, Col } from 'react-bootstrap';
+
 import "./App.css";
-import Container from 'react-bootstrap/Container';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles,  } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import { LikeButton } from '@lyket/react';
+
+
 
 
 function App(){
